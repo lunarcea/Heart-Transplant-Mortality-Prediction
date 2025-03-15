@@ -1,5 +1,8 @@
 # Heart-Transplant-Mortality-Prediction
+
 This repository contains R code for predicting one-year mortality rates in heart transplant patients based on donor matching characteristics. The analysis explores the relationship between donor-recipient matching variables (particularly RV mass ratio) and post-transplant outcomes.
+
+
 ![fulldata](https://github.com/user-attachments/assets/64ce3097-c15b-443f-a8ad-d6219ca89af5)
 ![timeperiod](https://github.com/user-attachments/assets/7ae86d45-cebb-40fa-b224-f46e78143fea)
 ![lvda](https://github.com/user-attachments/assets/ffc86c19-53a2-4991-9386-83706e5be33b)
