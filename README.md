@@ -3,7 +3,8 @@ This repository contains R code for predicting one-year mortality rates in heart
 ![fulldata](https://github.com/user-attachments/assets/64ce3097-c15b-443f-a8ad-d6219ca89af5)
 ![timeperiod](https://github.com/user-attachments/assets/7ae86d45-cebb-40fa-b224-f46e78143fea)
 ![lvda](https://github.com/user-attachments/assets/ffc86c19-53a2-4991-9386-83706e5be33b)
-![demo](https://github.com/user-attachments/assets/4f1e95e4-0325-4d79-9925-4488a23bd4e2)
+![demo](https://github.com/user-attachments/assets/4fc4c4fb-d5d3-4962-9f02-a6967c70380e)
+
 <p align="center">
   <img src="plots/rv_mass_ratio_example.png" alt="RV Mass Ratio Visualization" width="600"/>
 </p>
