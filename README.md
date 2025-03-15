@@ -32,6 +32,31 @@ cd heart-transplant-mortality-prediction
 2. Install required packages:
   install.packages(c("dplyr", "readr", "tidyr", "ggplot2", "gridExtra", "h2o"))
 
+**Data**
+**Required Data Structure**
+This analysis works with heart transplant data that includes donor and recipient characteristics. The essential data elements include:
+
+- Target variable: One-year mortality or retransplant status (One_year_mortality_retransplant)
+- Key predictors:
+   - Right ventricle (RV) mass measurements for both donor and recipient
+   - Demographic information (age, gender)
+   - Clinical variables (creatinine levels, bilirubin, etc.)
+   - Transplant characteristics (ischemic time, ventilator status)
+
+**Data Subsets**
+The analysis examines multiple clinically relevant subgroups:
+1. Full cohort: All available heart transplant cases
+2. LVAD stratification: Cases with and without left ventricular assist devices
+3. Era comparison: Transplants performed before and after 2006
+4. Gender matching: Different donor-recipient gender combinations
+
+**Data Sources**
+While this code was developed using specific UNOS registry data, it can be adapted for similar heart transplant datasets from other registries or centers. The preprocessing scripts can be modified to accommodate different column names or data structures.
+
+**Data Privacy**
+This repository does not include any patient data. Users must supply their own data files that adhere to appropriate ethical guidelines and data use agreements.
+
+
 **Usage**
 
 **Command Line**
